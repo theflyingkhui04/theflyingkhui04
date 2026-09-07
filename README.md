@@ -12,7 +12,7 @@
 <h3 align="center">AI Engineer · GenAI Systems · LLMOps</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&width=680&lines=Building+production+AI+systems%2C+end-to-end;LLM+%7C+RAG+%7C+Multi-Agent+Systems;Inference+optimization+%E2%80%94+vLLM%2C+speculative+decoding%2C+ONNX;Final-year+CS+(Data+Science)+%40+PTIT" alt="typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&height=45&lines=Building+production+AI+systems%2C+end-to-end;LLM+%7C+RAG+%7C+Multi-Agent+Systems;Inference+optimization%3A+vLLM+%C2%B7+speculative+decoding+%C2%B7+ONNX;Final-year+CS+(Data+Science)+%40+PTIT" alt="typing SVG" />
 </p>
 
 <p align="center">
