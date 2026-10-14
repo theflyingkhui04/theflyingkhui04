@@ -1,81 +1,41 @@
-<!--
-  GitHub Profile README for Cấn Đức Khôi (theflyingkhui04)
-  HOW TO PUBLISH:
-    1. Create a new public repo named EXACTLY:  theflyingkhui04
-    2. Add this file as README.md at its root
-    3. It will render on https://github.com/theflyingkhui04
-  Tip: tweak the "&theme=" params below to restyle (tokyonight / radical / dracula / catppuccin_mocha).
--->
+# Hi, I'm Khoi 👋
 
-<h1 align="center">Hi there, I'm Can Duc Khoi (duckhui04) 👋</h1>
+Final-year computer science student at PTIT, Hanoi. I work as a junior AI developer at a Japanese IT company.
+I like to train models, make them run faster and put them into real products.
 
-<h3 align="center">AI Engineer · GenAI Systems · LLMOps</h3>
+[LinkedIn](https://linkedin.com/in/duckhoi04) · [Email](mailto:itsduckhoi04@gmail.com) · [Hugging Face](https://huggingface.co/duckhoi)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&width=900&height=45&lines=Building+production+AI+systems%2C+end-to-end;LLM+%7C+RAG+%7C+Multi-Agent+Systems;Inference+optimization%3A+vLLM+%C2%B7+speculative+decoding+%C2%B7+ONNX;Final-year+CS+(Data+Science)+%40+PTIT" alt="typing SVG" />
-</p>
+## What I work on
 
-<p align="center">
-  <a href="https://linkedin.com/in/duckhoi04"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:itsduckhoi04@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=theflyingkhui04&style=for-the-badge&color=6c5ce7" alt="profile views"/>
-</p>
+- **At work:** I co-developed an internal RAG chatbot for Japanese design documents. It runs on a self-hosted LLM and a team of 20-30 people uses it. I also built the backend for a multi-agent tool that writes test cases. Both use LangGraph.
+- **Thesis:** I am the project manager and inference engine lead in a team of 3. We work on speculative decoding in vLLM on a T4 GPU.
+- **Now learning:** model quantization and how to run models on small devices.
 
----
+## Projects
 
-### 🧠 About me
+**Speculative decoding for self-hosted LLMs** · graduation thesis, ongoing
+I built a draft controller in vLLM. It picks 0 to 4 draft tokens for each request based on the recent acceptance rate. Fixed-length drafting gave 1.34x throughput on JSON tasks but only 0.81x on free text. The controller tries to close this gap.
+I also trained an [EAGLE-3.1 draft head for Qwen2.5-7B](https://huggingface.co/duckhoi/qwen2.5-7b-eagle3.1-speculator) on 30K English and Vietnamese samples. Benchmarking is still in progress.
 
-- 🏢 Current title: **Junior Developer (AI)** — building production AI features end-to-end: data → model → training/eval → deployment
-- 🎓 Final-year **Computer Science (Data Science)** engineer at **PTIT**, Hanoi
-- 🔬 I like **building & experimenting with models** — from multimodal fusion and knowledge distillation to RAG & multi-agent LLM systems
-- ⚙️ Especially into the **Ops** side: model serving, quantization, ONNX, and turning research into things that actually run
-- 🌱 Currently going deeper on **LLMOps, inference optimization, and agentic systems**
-- 🗣️ Vietnamese (native) · English (fluent in listening/ reading - upper intermediate in speaking)
+**[Referring image segmentation](https://github.com/theflyingkhui04/Referring-Image-Segmentation)** · course project, team of 4
+The model cuts out the object described by a sentence. A large model, LAVT, teaches a smaller model, CLIPSeg. I did the training and distillation. It reached mIoU 0.51 on RefCOCO+.
 
----
+**[Graph-based e-commerce recommender](https://github.com/nguyenmaiductrong/heterogeneous-graph-based-ecom-recsys)** · course project, team of 4
+A graph neural network predicts what users buy next on REES46, with 203K users and 32M interactions. I designed the time-aware modules, built the MixRec baseline and made the demo.
 
-### 🚀 Highlighted Projects
+**[TNKV-DB](https://github.com/theflyingkhui04/TNKV-DB)** · course project, team of 3, team lead
+A small sparse vector database built from scratch. It has an inverted index with compression, BM25 ranking, query expansion and a Streamlit demo.
 
-| Project | What it is | Stack |
-|---|---|---|
-| 🕸️ [**Heterogeneous-Graph E-com RecSys**](https://github.com/nguyenmaiductrong/heterogeneous-graph-based-ecom-recsys) | Behavior-aware **GNN** (BPATMP: temporal attention + multi-task contrastive learning) on REES46 | PyTorch Geometric · PySpark · FastAPI |
-| 🔎 [**TNKV-DB**](https://github.com/theflyingkhui04/TNKV-DB) | A from-scratch **sparse vector DB / IR engine** — inverted index, TF-IDF, BM25, Rocchio | Python · FastAPI · Streamlit |
+## Tools
 
-> Just a couple I'm happy to highlight — the rest of the story lives on [LinkedIn](https://linkedin.com/in/duckhoi04). 🙂
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
----
-
-### 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postgres](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Focus areas:** LLM fine-tuning · RAG · Agents (LangGraph / LangChain / Dify) · Model distillation & quantization · Inference optimization · Recommender & Graph ML · MLOps
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=theflyingkhui04&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=6c5ce7&icon_color=a29bfe" alt="stats" /> -->
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=theflyingkhui04&theme=tokyonight&hide_border=true&stroke=6c5ce7&ring=a29bfe&fire=ff7675" alt="streak" />
-</p>
-
-<!-- <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theflyingkhui04&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=6c5ce7" alt="top langs" />
-</p> -->
-
----
-
-<p align="center"><i>"Intensely curious — I like to know how things work, then build them." ✨</i></p>
+- **Deep learning:** PyTorch, PyTorch Geometric, Hugging Face, OpenCV, CLIP, BLIP
+- **LLM:** LangGraph, RAG, Qdrant, vLLM, LoRA and QLoRA, speculative decoding
+- **Backend:** FastAPI, PostgreSQL, Redis, Celery, Docker
