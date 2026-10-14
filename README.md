@@ -9,7 +9,7 @@ I like to train models, make them run faster and put them into real products.
 
 - **At work:** I co-developed an internal RAG chatbot for Japanese design documents. It runs on a self-hosted LLM and a team of 20-30 people uses it. I also built the backend for a multi-agent tool that writes test cases. Both use LangGraph.
 - **Thesis:** I am the project manager and inference engine lead in a team of 3. We work on speculative decoding in vLLM on a T4 GPU.
-- **Now learning:** model quantization and how to run models on small devices.
+- **Now learning:** model quantization and how to run models on small devices, learn to serve ML model and LLM model to production. Learning backend programming. Learning English. Learning Japanese. Learning guitars
 
 ## Projects
 
